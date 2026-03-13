@@ -31,6 +31,8 @@ npm install @riavzon/json-to-ts
 
 ```typescript
 import JsonToTS from '@riavzon/json-to-ts';
+// or
+const JsonToTS = require('@riavzon/json-to-ts');
 
 const json = {
   id: 1,
