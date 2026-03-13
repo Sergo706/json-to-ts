@@ -4,6 +4,7 @@ import { Options as ParserOptions } from "../types/options.js";
 import { findTypeById, isHash } from "../utils/utlls.js";
 import { getTypeDescriptionGroup } from "../utils/getTypeDescriptionGroup.js";
 import { NameParserBase } from "./nameParserBase.js";
+import { onlyUnique } from "../utils/utlls.js";
 
 export class NameParser extends NameParserBase {
   private readonly rootName: string;
@@ -119,8 +120,4 @@ export class NameParser extends NameParserBase {
       .filter(onlyUnique)
       .join(" | ");
   }
-}
-
-function onlyUnique(value: string, index: number, self: string[]) {
-  return self.indexOf(value) === index;
 }
