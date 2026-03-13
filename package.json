@@ -37,7 +37,8 @@
   "scripts": {
     "test": "npx tsx --test test/*.spec.ts",
     "build": "tsup",
-    "lint": "eslint . --fix"
+    "lint": "eslint . --fix",
+    "prepublishOnly": "npm run build"
   },
   "files": [
     "dist"
