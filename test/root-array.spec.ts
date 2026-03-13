@@ -1,7 +1,7 @@
 import * as assert from "node:assert";
 import { describe, it } from "node:test";
-import { removeWhiteSpace } from "./util/index";
-import JsonToTS from "../src/index";
+import { removeWhiteSpace } from "./util/index.js";
+import JsonToTS from "../src/index.js";
 
 describe("Root array type", function() {
   it("should throw error on unsupprted array types", function() {
