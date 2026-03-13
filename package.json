@@ -4,6 +4,25 @@
   "type": "module",
   "author": "Sergio contact@riavzon.com",
   "license": "MIT",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/Sergo706/json-to-ts"
+  },
+  "bugs": {
+      "url": "https://github.com/Sergo706/json-to-ts/issues"
+  },
+  "keywords": [
+    "json",
+    "typescript",
+    "interface",
+    "generator",
+    "converter",
+    "types",
+    "json-to-ts",
+    "literal-types",
+    "esm"
+  ],
+  "homepage": "https://github.com/Sergo706/json-to-ts#readme",
   "description": "Convert json object to typescript interfaces",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
