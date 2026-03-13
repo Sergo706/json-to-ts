@@ -5,7 +5,7 @@
 >NOTE
 >
 >This is a fork of [MariusAlch/json-to-ts](https://github.com/MariusAlch/json-to-ts) redesigned with a stateful pipeline architecture, new features, and **zero runtime dependencies**.
->
+
 
 ---
 
@@ -105,5 +105,3 @@ interface Data {
 
 ---
 MIT License
-
-
